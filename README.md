@@ -17,15 +17,15 @@
 
 A react based implementation of the SAP OpenUI5 framework (https://openui5.hana.ondemand.com).
 
-###Installation
+### Installation
 ```javascript
 npm install react-ui5 --save
 ```
-###Use
+### Use
 ```javascript
 import sap from 'react-ui5'
 ```
-###index.html
+### index.html
 ```html
 <!DOCTYPE html>
 <html>
@@ -40,7 +40,7 @@ import sap from 'react-ui5'
   </body>
 </html>
 ```
-###App.js
+### App.js
 ```javascript
 import React, { Component } from 'react';
 
@@ -61,10 +61,10 @@ class App extends Component {
 
 export default App;
 ```
-###Demo
+### Demo
 ![Sample](sample.gif)
 
-###Supported Components
+### Supported Components
 
 | component | methods | progress |
 | ------- | ---------------- | ------ |
@@ -75,12 +75,12 @@ export default App;
 | SplitContainer |  | 30% |
 | TabSplit |  | 20% |
 
-###SplitContainer
+### SplitContainer
 ```html
 <SplitContainer />
 ```
 ![Master Detail Page](page3.png)
-###TabContainer
+### TabContainer
 ```html
 <TabContainer />
 ```
